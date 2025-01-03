@@ -79,3 +79,4 @@ class Truck extends Vehicle implements AbleToTow {
 
 export default Truck;
 
+
