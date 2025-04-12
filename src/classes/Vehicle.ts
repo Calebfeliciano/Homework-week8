@@ -1,5 +1,5 @@
 // import Driveable interface
-import Driveable from '../interfaces/Driveable.js';
+import Driveable from '../Interface/Drive.js';
 
 // Vehicle class that implements Driveable interface
 class Vehicle implements Driveable {
@@ -72,6 +72,9 @@ class Vehicle implements Driveable {
     } else {
       console.log('Start the vehicle first');
     }
+  }
+  drift(): void {
+    console.log("This vehicle cannot drift.");
   }
 }
 
